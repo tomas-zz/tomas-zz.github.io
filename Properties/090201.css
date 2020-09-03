@@ -1,0 +1,75 @@
+﻿#top {
+    min-width:935px;
+}
+#topLeft, #topRight {
+    padding: 10px;
+    font-size: 20px;
+}
+#topLeft a, #topRight a{
+    text-decoration: none;
+    color:grey;
+    margin: 10px;
+}
+#topLeft a:hover, #topRight a:hover{
+    color:red;
+}
+#topLeft {
+    float: left;
+}
+#topRight {
+    float: right;
+}
+#login {
+    background-color:cornflowerblue;
+    color:white;
+    border:0;
+}
+#center {
+    clear: both;
+    display: flex;/*左右分布实现*/
+}
+#centerLeft {
+    /*不能在这设width，不能实现效果*/
+    padding: 20px;
+    border-right: 3px solid black;
+    margin: 0px 20px;
+    background-color: aliceblue;
+}
+#list1, #list2, #list3 {
+    padding-bottom: 110px;
+    width:350px;/*左边框框的width需要在这实现*/
+}
+#list3 ul{
+    list-style-image:url(../image/房屋.png);
+}
+#centerRight {
+    min-width:450px;
+    margin: 0px 20px 0px auto;/*左右之间距离实现*/
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+#content {
+    text-align: left;
+    word-break: break-all;
+    word-wrap: break-word; /*这行和上面那行作用是让div里的文字自动换行*/
+    font-size: 20px;
+    text-indent: 40px;
+}
+#bottom {
+    clear:both;
+    text-align:center;
+    color:gainsboro;
+}
+#bottomCenter {
+    width: 35%;
+    margin:20px auto 0 auto;/*div居中用*/
+    text-align: center;
+    min-width:650px;
+}
+#text {
+    float:left;
+}
+#bottomImg{
+    float:right;
+}
